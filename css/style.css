@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+.wrapper {
+    border: 30px solid #ff5040;
+    box-sizing: border-box;
+    height: 100vh;
+    min-height: 638px;
+    background: 
+        url(../img/poli_top.png) no-repeat 106% -22%,
+        url(../img/poli_bottom.png) no-repeat -9% 600%,
+        url(../img/bg.png) repeat ;
+    display: flex;
+}
+.brand{
+    margin: 0 auto;
+    align-self: center;
+    position: relative;
+    left: -10px;
+}
+.connect{
+    position: absolute;
+    top: 115px;
+    left: 195px;
+}
+.analyze{
+    position: absolute;
+    top: 435px;
+    left: 135px;
+}
+.act{
+    position: absolute;
+    top: 420px;
+    left: 475px;
+}
+.visualize{
+    position: absolute;
+    top: 75px;
+    right: 315px;
+}
+.unify{
+    position: absolute;
+    top:215px;
+    right: 200px;
+}
+p {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.2em;
+}
+.posclique{
+    position: absolute;
+    bottom: 40px;
+    right: 45px;
+}
